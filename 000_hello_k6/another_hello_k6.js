@@ -11,3 +11,5 @@ export default function() {
   check(res, { "status is 200": (res) => res.status === 200 });
   sleep(1);
 }
+
+// This file was created via Command Line with this command: k6 new another-hello-k6.js
